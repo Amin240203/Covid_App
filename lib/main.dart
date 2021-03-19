@@ -1,4 +1,4 @@
-import 'package:covid_app4/web_view.dart';
+import 'package:covid_app4/bottom_nav_bar.dart';
 
 import 'splashscreen_view.dart';
 import 'package:flutter/material.dart';
@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 void main() {
 //  runApp(MyApp());
   runApp(new MaterialApp(
-    home: WebView(),
+    home: BottomNavPage(),
   ));
 }
 
